@@ -185,6 +185,7 @@
 //Console.WriteLine(result);
 
 // QUIZ 12
+//Console.WriteLine("Col=5, Row=5, Segitiga Normal");
 //for (int i = 1; i <= 5; i++)
 //{
 //    for (int j = i; j < i + i; j++)
@@ -194,6 +195,8 @@
 //    Console.WriteLine();
 //}
 
+
+//Console.WriteLine("-----Col=9, Row=5----");
 //for (int i = 1; i <= 5; i++)
 //{
 //    for (int j = 1; j <= 5 - i; j++)
@@ -211,6 +214,7 @@
 //    Console.WriteLine();
 //}
 
+//Console.WriteLine("----Col=5, Row=5, Segitiga Terbalik----");
 //for (int i = 1; i <= 5; i++)
 //{
 //    for (int j = 10; j >= 5 + i; j--)
@@ -220,6 +224,10 @@
 //    Console.WriteLine();
 //}
 
+
+
+
+//Console.WriteLine("----Col= 9, Row = 5-------");
 //for (int i = 1; i <= 4; i++)
 //{
 //    for (int j = 1; j <= i; j++)
