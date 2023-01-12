@@ -55,7 +55,7 @@
 //int largest = int.MinValue;
 //while (true)
 //{
-//    Console.WriteLine("Masukkan angka: ");
+//    Console.WriteLine("Masukkan angka [Tekan angka '0' untuk exit] : ");
 //    int num = int.Parse(Console.ReadLine());
 //    if (num == 0)
 //    {
@@ -80,28 +80,33 @@
 
 
 // QUIZ 6
-//int count = 0;
-//int angkaPrima = 2;
-//Console.WriteLine("Enter Limit Number: ");
-//int primeCount = int.Parse(Console.ReadLine());
-//Console.WriteLine($"List of Prime Number With {primeCount} limit ");
-//while (count < primeCount)
+//int end;
+//int start = 2;
+//Console.Write("Enter limit number : ");
+//end = int.Parse(Console.ReadLine());
+//for (int i = start; i <= end; i++)
 //{
-//    bool isPrime = true;
-//    for (int i = 2; i <= Math.Sqrt(angkaPrima); i++)
+//    if (isPrime(i))
 //    {
-//        if (angkaPrima % i == 0)
+//        Console.Write(i + " ");
+//    }
+//}
+
+
+//    static bool isPrime(int num)
+//{
+//    if (num <= 1)
+//    {
+//        return false;
+//    }
+//    for (int i = 2; i <= Math.Sqrt(num); i++)
+//    {
+//        if (num % i == 0)
 //        {
-//            isPrime = false;
-//            break;
+//            return false;
 //        }
 //    }
-//    if (isPrime)
-//    {
-//        Console.Write(angkaPrima + " ");
-//        count++;
-//    }
-//    angkaPrima++;
+//    return true;
 //}
 
 
